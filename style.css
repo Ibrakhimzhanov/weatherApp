@@ -1,0 +1,38 @@
+.weather {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.city {
+    display: block;
+}
+
+select {
+    width: 220px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    border-radius: 5px;
+    outline: 1px;
+    border: 1px solid black;
+}
+
+#city-info {
+    display: flex;
+    background: greenyellow;
+    width: 800px;
+    height: 80px;
+    line-height: 77px;
+    margin: 0 auto;
+    border-radius: 50px;
+    justify-content: space-around;
+    list-style: none;
+    text-align-last: left;
+    margin-top: 50px;
+}
+
+#city-info span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
