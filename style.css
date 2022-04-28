@@ -7,21 +7,10 @@
     display: block;
 }
 
-select {
-    width: 220px;
-    text-align: center;
-    font-size: 18px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 5px;
-    border-radius: 5px;
-    outline: 1px;
-    border: 1px solid black;
-}
-
 #city-info {
     display: flex;
     background: greenyellow;
-    width: 800px;
+    width: 1800px;
     height: 80px;
     line-height: 77px;
     margin: 0 auto;
@@ -33,6 +22,12 @@ select {
 }
 
 #city-info span {
+    font-size: 30px;
+    font-family: Georgia, "Times New Roman", Times, serif;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.city-info__list {
+    display: flex;
 }
